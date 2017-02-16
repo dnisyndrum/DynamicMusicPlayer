@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DynamicMusicPlayer</string>
+
+    //menu items on main screen
+    <string name="action_about">About</string>
+    <string name="action_delete">Delete Playlist</string>
+
+    //main screen
+    <string name="mainScreenTitle">Dynamic Driving Soundtrack</string>
+    <string name="btnNewPlaylist">New Playlist</string>
+    <string name="spnLoadPlaylist">Load Playlist</string>
+    <string name="btnShuffle">Shuffle</string>
+
+    <string name="btnPlay">Play |> </string>
+    <string name="btnPause">Pause = </string>
+    <string name="action_edit_songset">Edit SongSet</string>
+
+    //songsets
+    <string name="lblMorning">Morning SongSet</string>
+    <string name="lblAfternoon">Afternoon SongSet</string>
+    <string name="lblEvening">Evening SongSet</string>
+    <string name="lblNight">Night SongSet</string>
+    <string name="lblEditSongSets">Edit SongSets</string>
+    <string name="btnBack">Back</string>
+    <string name="lblWaitTime">Wait time before transition:</string>
+
+    <string name="lblMorningTime">Morning (6:00AM-11:59AM)</string>
+    <string name="lblAfternoonTime">AfterNoon (12:00PM-5:59PM)</string>
+    <string name="lblEveningTime">Evening (6:00PM-11:59PM)</string>
+    <string name="lblNightTime">Night (12:00AM-5:59AM)</string>
+    <string name="btnSave">Save</string>
+
+    <string name="btnPlus">+</string>
+    <string name="btnMinus">-</string>
+
+    //headers
+    <string name="lblMorningSongSet">Morning SongSet</string>
+    <string name="lblAfternoonSongSet">Afternoon SongSet</string>
+    <string name="lblEveningSongSet">Evening SongSet</string>
+    <string name="lblNightSongSet">Night SongSet</string>
+
+    //speeds
+    <string name="lblSpeed1">0MPH-29MPH</string>
+    <string name="lblSpeed2">30MPH-49MPH</string>
+    <string name="lblSpeed3">50+MPH</string>
+
+    //add/delete song
+    <string name="lblAddSong">Add New Song to SongSet</string>
+    <string name="lblDeleteSong">Delete Song from SongSet</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clrOther1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lblEditSongSets"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:text="@string/lblMorningTime"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/clrMorning1"
+        android:onClick="morningOnClick" />
+
+    <Button
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:text="@string/lblAfternoonTime"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/clrAfternoon1"
+        android:onClick="afternoonOnClick" />
+
+    <Button
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:text="@string/lblEveningTime"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/clrEvening1"
+        android:onClick="eveningOnClick" />
+
+    <Button
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:text="@string/lblNightTime"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/clrNight1"
+        android:onClick="nightOnClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/abc_action_bar_content_inset_with_nav"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@color/clrOther2"
+        android:onClick="saveOnClick" />
+</LinearLayout>

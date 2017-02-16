@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="backColor">#c2c2c2</color>
+    <color name="backColor2">#9a9999</color>
+
+    //morning
+    <color name="clrMorning1">#fbf08a</color>
+    <color name="clrMorning2">#f6d047</color>
+    //afternoon
+    <color name="clrAfternoon1">#ff9f9f</color>
+    <color name="clrAfternoon2">#f98989</color>
+    //evening
+    <color name="clrEvening1">#a4ddfc</color>
+    <color name="clrEvening2">#bbbcff</color>
+    //night
+    <color name="clrNight1">#c0b2ff</color>
+    <color name="clrNight2">#f081ff</color>
+
+    //main/other backgrounds
+    <color name="clrOther1">#e9e8f1</color>
+    <color name="clrOther2">#cde7ed</color>
+
+</resources>
